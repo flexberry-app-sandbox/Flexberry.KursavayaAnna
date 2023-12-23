@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Производитель",
+  "name": "IISKursavayaAnnaПроизводительE",
+  "className": "ПроизводительE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-производитель",
+      "modelProjection": "ПроизводительE"
+    }
+  ]
+}

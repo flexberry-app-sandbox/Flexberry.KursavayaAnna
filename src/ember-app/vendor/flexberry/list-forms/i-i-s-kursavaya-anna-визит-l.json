@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursavaya-anna-визит-e",
+  "editForm": "i-i-s-kursavaya-anna-визит-e",
+  "external": false,
+  "caption": "Визит",
+  "name": "IISKursavayaAnnaВизитL",
+  "className": "ВизитL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-визит",
+      "modelProjection": "ВизитL"
+    }
+  ]
+}

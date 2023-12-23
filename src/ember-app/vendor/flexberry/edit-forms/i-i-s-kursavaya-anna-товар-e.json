@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Производитель",
+      "projection": "ПроизводительL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Товар",
+  "name": "IISKursavayaAnnaТоварE",
+  "className": "ТоварE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-товар",
+      "modelProjection": "ТоварE"
+    }
+  ]
+}

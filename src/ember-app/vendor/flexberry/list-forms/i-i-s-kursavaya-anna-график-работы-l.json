@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursavaya-anna-график-работы-e",
+  "editForm": "i-i-s-kursavaya-anna-график-работы-e",
+  "external": false,
+  "caption": "График работы",
+  "name": "IISKursavayaAnnaГрафикРаботыL",
+  "className": "ГрафикРаботыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-график-работы",
+      "modelProjection": "ГрафикРаботыL"
+    }
+  ]
+}

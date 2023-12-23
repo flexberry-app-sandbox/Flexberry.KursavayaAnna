@@ -1,0 +1,117 @@
+﻿{
+  "name": "IISKursavayaAnnaОтсутствие",
+  "modelName": "i-i-s-kursavaya-anna-отсутствие",
+  "className": "Отсутствие",
+  "nameSpace": "IIS.KursavayaAnna",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаКонца",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаНачала",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "комментарий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "причина",
+      "type": "i-i-s-kursavaya-anna-тип-занятости",
+      "flexberryType": "ТипЗанятости",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтсутствиеE",
+      "modelName": "i-i-s-kursavaya-anna-отсутствие",
+      "attrs": [
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаКонца",
+          "caption": "Дата конца",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "причина",
+          "caption": "Причина",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтсутствиеL",
+      "modelName": "i-i-s-kursavaya-anna-отсутствие",
+      "attrs": [
+        {
+          "name": "датаНачала",
+          "caption": "Дата начала",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаКонца",
+          "caption": "Дата конца",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "причина",
+          "caption": "Причина",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

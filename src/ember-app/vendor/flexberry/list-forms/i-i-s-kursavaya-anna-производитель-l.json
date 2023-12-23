@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursavaya-anna-производитель-e",
+  "editForm": "i-i-s-kursavaya-anna-производитель-e",
+  "external": false,
+  "caption": "Производитель",
+  "name": "IISKursavayaAnnaПроизводительL",
+  "className": "ПроизводительL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-производитель",
+      "modelProjection": "ПроизводительL"
+    }
+  ]
+}

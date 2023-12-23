@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Должности",
+  "name": "IISKursavayaAnnaДолжностиE",
+  "className": "ДолжностиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-должности",
+      "modelProjection": "ДолжностиE"
+    }
+  ]
+}

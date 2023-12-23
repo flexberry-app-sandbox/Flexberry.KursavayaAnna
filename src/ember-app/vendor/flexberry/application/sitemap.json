@@ -1,0 +1,118 @@
+﻿{
+  "applicationCaption": "Kursavaya anna",
+  "applicationTitle": "Kursavaya anna",
+  "items": [
+    {
+      "link": null,
+      "menuName": "сотрудники",
+      "caption": "Сотрудники",
+      "title": "Сотрудники",
+      "children": [
+        {
+          "link": "i-i-s-kursavaya-anna-сотрудник-l",
+          "menuName": null,
+          "caption": "сотрудник",
+          "title": "Сотрудник",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursavaya-anna-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "Должности",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "график-работы",
+      "caption": "График работы",
+      "title": "График работы",
+      "children": [
+        {
+          "link": "i-i-s-kursavaya-anna-график-работы-l",
+          "menuName": null,
+          "caption": "ГрафикРаботы",
+          "title": "График работы",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursavaya-anna-отсутствие-l",
+          "menuName": null,
+          "caption": "Отсутствие",
+          "title": "Отсутствие",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-товары",
+      "caption": "Справочник товары",
+      "title": "Справочник товары",
+      "children": [
+        {
+          "link": "i-i-s-kursavaya-anna-товар-l",
+          "menuName": null,
+          "caption": "Товар",
+          "title": "Товар",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursavaya-anna-производитель-l",
+          "menuName": null,
+          "caption": "Производитель",
+          "title": "Производитель",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "запись-на-визит",
+      "caption": "Запись на визит",
+      "title": "Запись на визит",
+      "children": [
+        {
+          "link": "i-i-s-kursavaya-anna-визит-l",
+          "menuName": null,
+          "caption": "Визит",
+          "title": "Визит",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "услуги",
+      "caption": "Услуги",
+      "title": "Услуги",
+      "children": [
+        {
+          "link": "i-i-s-kursavaya-anna-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "Услуга",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "наши-клиенты",
+      "caption": "Наши клиенты",
+      "title": "Наши клиенты",
+      "children": [
+        {
+          "link": "i-i-s-kursavaya-anna-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "Клиент",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

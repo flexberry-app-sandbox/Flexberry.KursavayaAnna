@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursavaya-anna-отсутствие-e",
+  "editForm": "i-i-s-kursavaya-anna-отсутствие-e",
+  "external": false,
+  "caption": "Отсутствие",
+  "name": "IISKursavayaAnnaОтсутствиеL",
+  "className": "ОтсутствиеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-отсутствие",
+      "modelProjection": "ОтсутствиеL"
+    }
+  ]
+}

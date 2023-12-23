@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursavaya-anna-услуга-e",
+  "editForm": "i-i-s-kursavaya-anna-услуга-e",
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISKursavayaAnnaУслугаL",
+  "className": "УслугаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-услуга",
+      "modelProjection": "УслугаL"
+    }
+  ]
+}

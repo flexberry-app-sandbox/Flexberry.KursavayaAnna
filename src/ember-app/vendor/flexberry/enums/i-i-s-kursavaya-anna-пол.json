@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.KursavayaAnna",
+  "className": "Пол",
+  "enumObjects": {
+    "Мужской": "Мужской",
+    "Женский": "Женский"
+  }
+}

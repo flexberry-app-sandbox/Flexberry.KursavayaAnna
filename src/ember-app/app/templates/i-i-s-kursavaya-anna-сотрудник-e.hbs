@@ -1,0 +1,146 @@
+<h3 class="ui header">{{t "forms.i-i-s-kursavaya-anna-сотрудник-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.фИО
+      class=(if (v-get validationModel "фИО" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursavaya-anna-сотрудник-e.фИО-caption")
+      data-test-i-i-s-kursavaya-anna-сотрудник-e-фИО=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "фИО" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.кодСотрудника
+      class=(if (v-get validationModel "кодСотрудника" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursavaya-anna-сотрудник-e.кодСотрудника-caption")
+      data-test-i-i-s-kursavaya-anna-сотрудник-e-кодСотрудника=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кодСотрудника" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursavaya-anna-сотрудник-e.датаРождения-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.датаРождения
+      class=(if (v-get validationModel "датаРождения" "isInvalid") "error")
+      data-test-i-i-s-kursavaya-anna-сотрудник-e-датаРождения=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "датаРождения" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.номерТелефона
+      class=(if (v-get validationModel "номерТелефона" "isInvalid") "error")
+      label=(t "forms.i-i-s-kursavaya-anna-сотрудник-e.номерТелефона-caption")
+      data-test-i-i-s-kursavaya-anna-сотрудник-e-номерТелефона=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номерТелефона" "message")}}
+  </div>
+  <div class="field" data-test-i-i-s-kursavaya-anna-сотрудник-e-пол="true">
+    <label>{{t "forms.i-i-s-kursavaya-anna-сотрудник-e.пол-caption"}}</label>
+    {{flexberry-dropdown
+      items=(flexberry-enum "i-i-s-kursavaya-anna-пол")
+      value=model.пол
+      class=(if (v-get validationModel "пол" "isInvalid") "error")
+      readonly=readonly
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "пол" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursavaya-anna-сотрудник-e.графикРаботы-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.графикРаботы
+      displayAttributeName="числоЧасов"
+      autocomplete=true
+      relationName="графикРаботы"
+      projection="ГрафикРаботыL"
+      title=(t "forms.i-i-s-kursavaya-anna-сотрудник-e.графикРаботы-caption")
+      readonly=readonly
+      componentName="графикРаботыLookup"
+      class=(if (v-get validationModel "графикРаботы" "isInvalid") "error")
+      data-test-i-i-s-kursavaya-anna-сотрудник-e-графикРаботы=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "графикРаботы" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursavaya-anna-сотрудник-e.должности-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.должности
+      displayAttributeName="должность"
+      autocomplete=true
+      relationName="должности"
+      projection="ДолжностиL"
+      title=(t "forms.i-i-s-kursavaya-anna-сотрудник-e.должности-caption")
+      readonly=readonly
+      componentName="должностиLookup"
+      class=(if (v-get validationModel "должности" "isInvalid") "error")
+      data-test-i-i-s-kursavaya-anna-сотрудник-e-должности=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "должности" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursavaya-anna-сотрудник-e.отсутствие-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.отсутствие
+      displayAttributeName="комментарий"
+      autocomplete=true
+      relationName="отсутствие"
+      projection="ОтсутствиеL"
+      title=(t "forms.i-i-s-kursavaya-anna-сотрудник-e.отсутствие-caption")
+      readonly=readonly
+      componentName="отсутствиеLookup"
+      class=(if (v-get validationModel "отсутствие" "isInvalid") "error")
+      data-test-i-i-s-kursavaya-anna-сотрудник-e-отсутствие=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "отсутствие" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-kursavaya-anna-сотрудник-e.услугиМастера-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="услугиМастераGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.услугиМастера
+      content=model.услугиМастера
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "услугиМастера" "isInvalid") "error")
+      data-test-i-i-s-kursavaya-anna-сотрудник-e-услугиМастера=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "услугиМастера" "message")}}
+  </div>
+</form>

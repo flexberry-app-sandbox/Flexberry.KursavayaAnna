@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursavaya-anna-должности-e",
+  "editForm": "i-i-s-kursavaya-anna-должности-e",
+  "external": false,
+  "caption": "Должности",
+  "name": "IISKursavayaAnnaДолжностиL",
+  "className": "ДолжностиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-должности",
+      "modelProjection": "ДолжностиL"
+    }
+  ]
+}

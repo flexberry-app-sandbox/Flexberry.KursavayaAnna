@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "товар",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставУслуги.Товар",
+      "projection": "ТоварL",
+      "detailModelName": "i-i-s-kursavaya-anna-состав-услуги"
+    }
+  ],
+  "external": false,
+  "caption": "Услуга",
+  "name": "IISKursavayaAnnaУслугаE",
+  "className": "УслугаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursavaya-anna-услуга",
+      "modelProjection": "УслугаE"
+    }
+  ]
+}
