@@ -22,13 +22,13 @@ export default Controller.extend({
             link: 'i-i-s-kursavaya-anna-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-kursavaya-anna-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-kursavaya-anna-сотрудник-l.title'),
-            icon: 'calendar',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-kursavaya-anna-должности-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-kursavaya-anna-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-kursavaya-anna-должности-l.title'),
-            icon: 'phone',
+            icon: 'paperclip',
             children: null
           }]
         }, {
@@ -40,13 +40,13 @@ export default Controller.extend({
             link: 'i-i-s-kursavaya-anna-график-работы-l',
             caption: i18n.t('forms.application.sitemap.график-работы.i-i-s-kursavaya-anna-график-работы-l.caption'),
             title: i18n.t('forms.application.sitemap.график-работы.i-i-s-kursavaya-anna-график-работы-l.title'),
-            icon: 'book',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-kursavaya-anna-отсутствие-l',
             caption: i18n.t('forms.application.sitemap.график-работы.i-i-s-kursavaya-anna-отсутствие-l.caption'),
             title: i18n.t('forms.application.sitemap.график-работы.i-i-s-kursavaya-anna-отсутствие-l.title'),
-            icon: 'calendar',
+            icon: 'folder open',
             children: null
           }]
         }, {
@@ -58,13 +58,12 @@ export default Controller.extend({
             link: 'i-i-s-kursavaya-anna-товар-l',
             caption: i18n.t('forms.application.sitemap.справочник-товары.i-i-s-kursavaya-anna-товар-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-товары.i-i-s-kursavaya-anna-товар-l.title'),
-            icon: 'chart line',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-kursavaya-anna-производитель-l',
             caption: i18n.t('forms.application.sitemap.справочник-товары.i-i-s-kursavaya-anna-производитель-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник-товары.i-i-s-kursavaya-anna-производитель-l.title'),
-            icon: 'tags',
             children: null
           }]
         }, {
@@ -76,7 +75,7 @@ export default Controller.extend({
             link: 'i-i-s-kursavaya-anna-визит-l',
             caption: i18n.t('forms.application.sitemap.запись-на-визит.i-i-s-kursavaya-anna-визит-l.caption'),
             title: i18n.t('forms.application.sitemap.запись-на-визит.i-i-s-kursavaya-anna-визит-l.title'),
-            icon: 'chart bar',
+            icon: 'paperclip',
             children: null
           }]
         }, {
@@ -88,7 +87,7 @@ export default Controller.extend({
             link: 'i-i-s-kursavaya-anna-услуга-l',
             caption: i18n.t('forms.application.sitemap.услуги.i-i-s-kursavaya-anna-услуга-l.caption'),
             title: i18n.t('forms.application.sitemap.услуги.i-i-s-kursavaya-anna-услуга-l.title'),
-            icon: 'phone',
+            icon: 'archive',
             children: null
           }]
         }, {
@@ -100,7 +99,7 @@ export default Controller.extend({
             link: 'i-i-s-kursavaya-anna-клиент-l',
             caption: i18n.t('forms.application.sitemap.наши-клиенты.i-i-s-kursavaya-anna-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.наши-клиенты.i-i-s-kursavaya-anna-клиент-l.title'),
-            icon: 'briefcase',
+            icon: 'chart bar',
             children: null
           }]
         }
